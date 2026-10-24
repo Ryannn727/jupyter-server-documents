@@ -3,7 +3,7 @@ name: Typing Checks
 on:
   push:
     # IMPORTANT: update these paths when we expand type-checking coverage
-    branches: [main]
+    branches: [main, codex/ci-335]
     paths:
       - 'jupyter_server_documents/rooms/**'
       - '.github/workflows/typing-checks.yml'
